@@ -9,6 +9,7 @@ public class Inbox extends MainClass
 	
   public void deletemail() throws Exception
   {
+	  System.out.println("hello");
 	  Thread.sleep(5000);
 	  driver.findElement(By.xpath(InboxP.xcheckbox)).click();
 	  driver.findElement(By.xpath(InboxP.xdelete)).click();
